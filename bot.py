@@ -10,6 +10,11 @@ async def on_ready():
 
 
 @my_bot.event
+async def on_message_edit(message_before, message_after):
+    await react_to_message(message_after, "voldemort", "voldemort_emoji")
+
+
+@my_bot.event
 async def on_message(message):
     await react_to_message(message, "voldemort", "voldemort_emoji")
     # await send_message(message, "I see what you're doing")
