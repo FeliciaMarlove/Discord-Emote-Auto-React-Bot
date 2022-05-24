@@ -1,5 +1,18 @@
-# auto-react-discord-bot
-Here is the code to make a bot that will automatically react with an emoji to every message sent within a channel inside of a discord server
+# Emote reaction bot for Discord
+The bot reacts with a specific emote when particular words appear in the conversation.
 
-# video guide
-Here is the link to a video guide if you are a noob like me -> https://www.youtube.com/watch?v=nomK9TIuxwM&t=
+## Install discord.py
+```
+pip install discord.py
+```
+[Official documentation](https://discordpy.readthedocs.io/)
+
+## Run the project
+On windows
+```
+py -3 bot.py
+```
+On another OS
+```
+python3 bot.py
+```
